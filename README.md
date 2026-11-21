@@ -54,7 +54,7 @@ The automation provides a repeatable workflow for updating conservation property
 The project demonstrates practical applications of Python programming, GIS automation, spatial data processing, and cartographic design in conservation management.
 
 ## Author
-Shivaraj Thapa
+Shivaraj Thapa |
 M.S. Geo-Information Science, Salem State University
 GIS Intern, Essex County Greenbelt Association
 
