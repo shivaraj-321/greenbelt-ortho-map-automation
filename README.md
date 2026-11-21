@@ -53,7 +53,7 @@ greenbelt-ortho-map-automation/
 ├── README.md
 ├── .gitignore
 ├── src/
-│   ├── Final.py
+│   ├── greenbelt_automation.py
 │   └── README.md
 └── notebooks/
     ├── Documentation.ipynb
@@ -84,7 +84,7 @@ The script is designed to execute as an ArcGIS Pro geoprocessing script tool wit
 
 ### Execution
 1. Open the configured project in ArcGIS Pro.
-2. Add `src/Final.py` as a geoprocessing script tool.
+2. Add `src/greenbelt_automation.py` as a geoprocessing script tool.
 3. Configure the two input parameters.
 4. Select a conservation property and output folder.
 5. Run the tool to generate the updated property map as a 300-DPI PDF.
