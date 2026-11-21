@@ -66,6 +66,31 @@ greenbelt-ortho-map-automation/
 - A configured map layout with the expected map frame, text elements, and scale bars
 - The script is intended to run within ArcGIS Pro and requires the appropriate project configuration and data.
 
+## Running the Automation
+The script is designed to execute as an ArcGIS Pro geoprocessing script tool within a configured ArcGIS Pro project.
+
+### Required Project Components
+- Map: `Ortho Map`
+- Layout: `Ortho_Portrait`
+- Map frame: `Map Frame`
+- Feature layers: `Greenbelt Property` and `Other Protected`
+- Property identifier field: `Key_`
+- Property information fields: `Property` and `Town`
+- Scale bar elements: `ScaleBar1` through `ScaleBar15` and `ScaleBarSmall`
+
+### Tool Parameters
+1. **Property Key:** Unique identifier of the conservation property.
+2. **Output Folder:** Directory where the exported PDF will be saved.
+
+### Execution
+1. Open the configured project in ArcGIS Pro.
+2. Add `src/Final.py` as a geoprocessing script tool.
+3. Configure the two input parameters.
+4. Select a conservation property and output folder.
+5. Run the tool to generate the updated property map as a 300-DPI PDF.
+
+**Note:** The script depends on the Greenbelt project configuration and is not a standalone GIS application.
+
 ## Project Outcomes
 The automation provides a repeatable workflow for updating conservation property maps, reducing the need to manually adjust individual map layouts.
 The project demonstrates practical applications of Python programming, GIS automation, spatial data processing, and cartographic design in conservation management.
