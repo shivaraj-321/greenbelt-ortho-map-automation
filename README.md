@@ -55,8 +55,8 @@ The project demonstrates practical applications of Python programming, GIS autom
 
 ## Author
 Shivaraj Thapa |
-M.S. Geo-Information Science, Salem State University
-GIS Intern, Essex County Greenbelt Association
+M.S. Geo-Information Science | Salem State University |
+GIS Intern | Essex County Greenbelt Association
 
 ## Acknowledgment
 Developed as part of GIS internship work with Essex County Greenbelt Association.
